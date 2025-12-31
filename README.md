@@ -10,6 +10,9 @@ It is designed using Fact–Dimension modeling to enable efficient querying, rep
 - Fact & Dimension Modeling (Star Schema)
 - ER Diagram
 
+## 📥 Data Loading
+CSV files were loaded into MySQL tables using the `LOAD DATA LOCAL INFILE` command for efficient bulk data insertion.
+
 ## 📊 Database Design
 - Fact Table: Electricity_Usage_Fact
 - Dimension Tables:

@@ -1,1 +1,38 @@
+LOAD DATA INFILE 'household_info.csv'
+INTO TABLE household_info
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
 
+
+LOAD DATA INFILE 'billing_info.csv'
+INTO TABLE billing_info
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+
+LOAD DATA INFILE 'appliance_usage.csv'
+INTO TABLE appliance_usage
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+
+LOAD DATA INFILE 'calculated_metrics.csv'
+INTO TABLE calculated_metrics
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+
+LOAD DATA INFILE 'environmental_data.csv'
+INTO TABLE environmental_data
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
